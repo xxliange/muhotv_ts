@@ -1,3 +1,7 @@
+*{
+  padding: 0;
+  margin: 0;
+}
 .App {
   text-align: center;
 }
@@ -11,6 +15,11 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.active{
+  color:#f7c695;
+  font-width: 700;
+  font-size: 30px;
 }
 
 .App-header {
