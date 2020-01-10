@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import WebHome from './core/web/home';
+import MHome from './core/mobile/home';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <WebHome num={1} />
+      <MHome string={'string'} number={38} />
     </div>
   );
 }
